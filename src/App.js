@@ -7,7 +7,7 @@ function App() {
   
   useEffect(() => {
     OneSignal.init({
-      appId: "28e4011c-9ebc-458a-a6e5-0c017a73d389",
+      appId: process.env.REACT_APP_ONESIGNAL,
     });
   }, []);
   
